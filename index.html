@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
+
 <body>
 	<section id="title-navbar">
 		<div class="bg-primary bg-gradient">
@@ -30,7 +32,7 @@
 								</a>
 							</li>
 							<li class="nav-item">
-								<a class="lead text-white nav-link" href="./documents/BP_2025_Resume_3.pdf">
+								<a class="lead text-white nav-link" href="./documents/bp_resume_092226.pdf">
 									<i class="fa-solid fa-file"></i> Resume
 								</a>
 							</li>
@@ -50,7 +52,8 @@
 		<section id="about-me">
 			<div>
 				<p class="text-center lead">
-					Recent UC San Diego Mathematics–Computer Science graduate with experience in Python, C, and web development. 
+					Recent UC San Diego Mathematics–Computer Science graduate with experience in Python, C, and web
+					development.
 					Interested in systems programming, low-level software, and building practical software projects.
 				</p>
 			</div>
@@ -58,38 +61,43 @@
 
 		<section id="projects">
 			<div>
-				<h3 class="text-center fw-bold">Projects:</h3>
-				<h4 class="text-center">Transcript Analysis Pipeline</h4>
-				<p class="text-center lead"><em>An automated text analysis tool that extracts character dialogue
-						patterns from multi-season TV episode transcripts.</em></p>
+				<h3 class="text-center fw-bold">Selected Projects:</h3>
+				<h4 class="text-center">Helluva Boss Dialogue Analysis</h4>
+				<p class="text-center lead">
+					<em>
+						A Python text-analysis project that parses episode transcripts to examine how individual characters use variations of a selected profanity across the series.
+					</em>
+				</p>
 				<div class="mx-auto" style="max-width: 900px;">
 					<ul class="lead list-unstyled">
-						<li>Processed episode transcripts and matched lines to characters using pattern analysis.</li>
-						<li>Cleaned, normalized, and parsed complex text (including lyrics and unusual formatting)</li>
-						<li>Generated keyword frequencies and statistical charts.</li>
-						<li><strong>This project reached ~190 community upvotes and was cited in discussion
-								threads.</strong></li>
+						<li>Parsed transcripts across multiple seasons and shorts and attributed dialogue to individual characters.</li>
+						<li>Used regular expressions to clean and normalize inconsistent transcript formatting, including lyrics and character labels.</li>
+						<li>Counted variations of the selected profanity by character and generated statistical visualizations of the results.</li>
+						<li>Published the analysis to an online fan community, where it received approximately 190 upvotes and was referenced in follow-up discussions.</li>
 					</ul>
 				</div>
 				<br>
-				<h4 class="text-center">Unix Calendar</h4>
-				<p class="text-center lead"><em>A terminal unix calendar written in C.</em></p>
+				<h4 class="text-center">Terminal Calendar</h4>
+				<p class="text-center lead"><em>A terminal-based calendar application written in C for managing events across a one-week schedule.</em></p>
 				<div class="mx-auto" style="max-width: 900px;">
 					<ul class="lead list-unstyled">
-						<li>Helped build a full pipeline for symbolic music generation</li>
-						<li>Implemented a Markov chain model to generate chord sequences</li>
-						<li>Prepared and cleaned training data from music sheet datasets</li>
-						<li>Compared Markov results with natural models using probability metrics and listener feedback
-						</li>
+						<li>Designed a terminal-based calendar for managing one week’s worth of scheduled events.</li>
+						<li>Implemented adding, removing, duplicating, and rescheduling events using a custom singly
+							linked list.</li>
+						<li>Enforced scheduling rules such as preventing conflicting events and rejecting invalid start
+							and end times.</li>
+						<li>Managed dynamic memory manually, including handling allocation failures and freeing
+							heap-allocated memory when it was no longer needed.</li>
 					</ul>
 				</div>
 			</div>
 		</section>
 	</div>
-	
+
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
 		crossorigin="anonymous"></script>
 	<script src="https://kit.fontawesome.com/963022c923.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
